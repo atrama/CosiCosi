@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset=utf-8>
+	<title>CosiCosi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/lib/modernizr.js"></script>
+	<link href="css/base.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Merriweather:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+</head>
+<header>
+	<h1>Because Corporate Websites Usually Suck</h1>
+<!-- 	<h2>Blame the&nbsp;<span><span>Designers</span><span>Managers</span><span>Developers</span></span></h2> -->
+	<h2>And I want to know why</h2>
+</header>
+<body>
+	
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<section class="siteIntro">
+					<div class="container">
+						<div>
+							<p>CosiCosi is a conversation between designers, developers, and upper management. We learn a lot of great things from agencies, but those cultures don't always transfer to the corporate world. This is an opportunity to ask management the questions we've always wanted to ask. And their chance to say what they've always wanted to say to us. Got something to say? <a href="#contactCont">Speak up!</a></p> 
+						</div>
+					</div>
+				</section>
+
+				<section class="about">
+					<div class="container">
+						<h2>Cosi...what?</h2>
+						<p><i>Cosi cosi is Italian for so-so. Which is exactly how corporate design is perceived, and maybe rightfully so. It's always been one of my favorite sounding phrases. As of the time of this writing, I just got back from Italy and it was stuck in my head and I needed a name for this project (I'm terrible at naming things), so yeah...that's all I've got.</i>
+					</div>
+				</section>
+								
+				<section id="contactCont" class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p>I am looking for designers, managers, developers, vice presidents, etc. to talk about their experience creating  websites for corporations, non-profits, and government agencies. You know, the boring, un-friendly work environments that don't have to create websites that are just <i>cosi cosi</i>. I am not just looking for success stories; I want to hear people that are struggling or look back on a project and wish things could have gone differently.</p>
+						</div>
+<!-- 						<form id="contact" class="col-md-6" action="//formspree.io/aftrama@gmail.com" method="POST"> -->
+						<form id="contact" class="col-md-6">
+							<input id="name" placeholder="Sweet! What's you're name?" required autocomplete>
+							<input id="email" type="email" name="_replyto" placeholder="where should I email you back at?" required autocomplete>
+							<input id="title" placeholder="What do you do?" required>
+							<div>
+								<textarea id="message" placeholder="Anything else you want to mention up front?" required></textarea>
+								<input type="submit">
+							</div>
+							<!--PI for formspree if ajax doesnt work-->
+							<input type="hidden" name="_next" value="/">
+							<input type="hidden" name="_subject" value="Honestelly Contact">
+							<input type="text" name="_gotcha" style="display:none" />
+						</form>
+					</article>
+				</div>
+			</div>
+		</div>			
+		
+	</div>
+</main>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
